@@ -369,6 +369,7 @@ template {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .search {
@@ -380,5 +381,12 @@ template {
 .search__input {
   width: 350px;
   height: 40px;
+  background-color: #f5fafe;
+  border-radius: 6px;
+  border: none;
+}
+
+.search__button {
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
