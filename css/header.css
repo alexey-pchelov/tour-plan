@@ -12,5 +12,18 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search__input {
+  width: 350px;
+  height: 40px;
 }
 /*# sourceMappingURL=header.css.map */

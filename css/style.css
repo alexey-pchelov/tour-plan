@@ -8,9 +8,8 @@ body {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1110 px;
   margin: auto;
-  border: 1px solid red;
 }
 
 /* Document
@@ -353,5 +352,33 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search__input {
+  width: 350px;
+  height: 40px;
 }
 /*# sourceMappingURL=style.css.map */
