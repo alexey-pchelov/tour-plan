@@ -376,17 +376,30 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  height: 40px;
 }
 
 .search__input {
   width: 350px;
-  height: 40px;
+  height: 100%;
+  padding-left: 23px;
   background-color: #f5fafe;
-  border-radius: 6px;
   border: none;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
 }
 
 .search__button {
   position: absolute;
+  right: 0;
+  top: 0;
+  width: 65px;
+  height: 100%;
+  border: none;
+  background-color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
